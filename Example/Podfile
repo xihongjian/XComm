@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XComm_Example' do
+  pod 'XComm', :path => '../'
+
+  target 'XComm_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
