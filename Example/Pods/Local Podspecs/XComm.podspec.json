@@ -1,9 +1,9 @@
 {
   "name": "XComm",
   "version": "0.1.0",
-  "summary": "A short description of XComm.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/XComm",
+  "summary": "XComm libary.",
+  "description": "XComm libary created by xihongjian.",
+  "homepage": "https://github.com/xihongjian/XComm",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "xpg": "xipg@cmmobi.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/XComm.git",
+    "git": "https://github.com/xihongjian/XComm.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "XComm/Classes/**/*"
 }
