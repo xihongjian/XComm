@@ -1,0 +1,6 @@
+framework module XComm {
+  umbrella header "XComm-umbrella.h"
+
+  export *
+  module * { export * }
+}

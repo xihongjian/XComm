@@ -8,6 +8,8 @@
 
 #import "XViewController.h"
 
+#import <XComm/XComm-umbrella.h>
+
 @interface XViewController ()
 
 @end
