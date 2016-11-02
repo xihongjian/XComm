@@ -1,4 +1,4 @@
-#
+
 # Be sure to run `pod lib lint XComm.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XComm'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'XComm libary.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,8 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'XComm/Classes/**/*.h',"$(PODS_ROOT)/**/*.h"
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 3.1.0'
+   s.libraries = 'sqlite3'
 end
